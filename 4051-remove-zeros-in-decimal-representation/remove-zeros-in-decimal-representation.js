@@ -1,0 +1,8 @@
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var removeZeros = function(n) {
+    return Number(n.toString().replace(/0/g, ""));
+}
+
